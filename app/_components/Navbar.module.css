@@ -46,6 +46,9 @@
   }
 
   @media screen and (max-width: 420px) {
+    .navbar {
+      width: 93%;
+    }
     .navItems span {
       display: none;
     }

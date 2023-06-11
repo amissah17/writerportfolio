@@ -101,6 +101,13 @@ color:inherit;
 @media screen and (max-width:768px) {
   main.contain {
       width: 80%;
+      font-size: 1em;
+  }
+}
+
+@media screen and (max-width:420px) {
+  main.contain {
+      width: 93%;
       font-size: 0.9em;
   }
 }
