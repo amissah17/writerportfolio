@@ -3,6 +3,7 @@ import Card from './_components/Card'
 import Link from 'next/link'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import ComingSoon from './_components/comingsoon';
 
 
 export default function Home() {
@@ -26,12 +27,12 @@ export default function Home() {
                     <h2 className={styles.headings}>Featured Blog Posts</h2>
 
                     <div className={styles.cards}>
-                        <div className={styles.card}>
+                        {/* <div className={styles.card}>
                             <Link href="" target="_blank">How to Setup Webpack 4 Config to Bundle Static Sites. [FreeCodeCamp]<FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{ marginLeft: '15px' }} size='sm' /></Link>
                         </div>
                         <div className={styles.card}>
                             <Link href="" target="_blank">How to Build a Comment System with Hygraph and Next.js. [Bejamas]<FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{ marginLeft: '15px' }} size='sm' /></Link>
-                        </div>
+                        </div> */}
                         <div className={styles.card}>
                             <Link href="https://dev.to/amissah17/how-to-create-a-developer-blog-with-storyblok-and-nextjs-13ad" target="_blank">How to Build a Developer Blog with Storyblok and Nextjs. [devto]<FontAwesomeIcon icon={faArrowUpRightFromSquare} style={{ marginLeft: '15px' }} size='sm' /></Link>
                         </div>
@@ -59,12 +60,13 @@ export default function Home() {
                     <div className={styles.cards2}>
                         <Card>
                             <div className={styles.cardHead}>
-                                <h4>Snap Nav Docs</h4>
+                                <div><h4>Snap Nav Docs</h4> <ComingSoon/></div>
+                                
                                 <div className={styles.btnGrp}>
                                     <Link href="" target="_blank" rel="noopener noreferrer" >Read <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></Link>
                                 </div>
                             </div>
-                            <p>This is a sample project I worked on for my portfolio. It's a brief documentation for react navigation.</p>
+                            <p>This is a sample project I'm working on for my portfolio. It's a brief documentation for react navigation.</p>
                         </Card>
                         <Card>
                             <div className={styles.cardHead}>
@@ -73,11 +75,11 @@ export default function Home() {
                                     <Link href="https://docs.google.com/document/d/1JCdwkvNu2LvigV86khXFXsMulOvr2dieiYO0zCbcvvQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer" >Read <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></Link>
                                 </div>
                             </div>
-                            <p>This is my style guide for writing and editing articles for my personal blog.
-                                It also includes tools I use while making content for my blog.
+                            <p>This is my style guide for writing and editing articles.
+                                It also includes tools I use while making content for developers.
                             </p>
                         </Card>
-                        <Card>
+                        {/* <Card>
                             <div className={styles.cardHead}>
                                 <h4>Docs Style Guide</h4>
                                 <div className={styles.btnGrp}>
@@ -88,7 +90,7 @@ export default function Home() {
                                 dolor, accusantium praesentium provident cumque perferendis dolores enim dolore rem dolorum
                                 quae sapiente, earum eveniet. Porro, rerum nulla.</p>
 
-                        </Card>
+                        </Card> */}
                     </div>
                 </div>
 
