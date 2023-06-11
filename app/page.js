@@ -3,7 +3,8 @@ import Card from './_components/Card'
 import Link from 'next/link'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
-import ComingSoon from './_components/comingsoon';
+import ComingSoon from './_components/Sooncard';
+
 
 
 export default function Home() {
@@ -60,7 +61,7 @@ export default function Home() {
                     <div className={styles.cards2}>
                         <Card>
                             <div className={styles.cardHead}>
-                                <div><h4>Snap Nav Docs</h4> <ComingSoon/></div>
+                                <div><h4>Snap Nav Docs</h4><ComingSoon/></div>
                                 
                                 <div className={styles.btnGrp}>
                                     <Link href="" target="_blank" rel="noopener noreferrer" >Read <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></Link>
