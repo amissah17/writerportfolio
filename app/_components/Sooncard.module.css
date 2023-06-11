@@ -1,0 +1,9 @@
+.wrapper {
+    padding: 5px;
+    border: 0.5px solid gray;
+    border-radius: 4px;
+    font-size: 0.6rem;
+    background-color: rgba(22, 22, 22, 0.705);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+}
