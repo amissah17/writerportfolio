@@ -38,7 +38,7 @@ Distributed under the [MIT License](LICENSE)
 
 Frank Amissah -[Twitter](https://twitter.com/amotabil8)
 
-Otabil Amissah-[Email](mailto:amissahfrank17@gmail.com)
+Frank Amissah-[Email](mailto:amissahfrank17@gmail.com)
 
 Project Link: [GitHub](https://github.com/amissah17/writerportfolio)
 
