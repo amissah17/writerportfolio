@@ -1,0 +1,33 @@
+.ftr {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 0.9em;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+.socials {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: auto;
+}
+.btn {
+    color: #fff;
+  }
+  
+  .btn:hover {
+color: #ffffffd8;
+  }
+
+  @media screen and (max-width: 420px) {
+    .socials {
+        font-size: 0.9em;
+        gap: 20px;
+    }
+  }
