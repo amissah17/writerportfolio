@@ -3,7 +3,7 @@ import Card from './_components/Card'
 import Link from 'next/link'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
-import Soon from './_components/Sooncard';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -61,37 +61,37 @@ export default function Home() {
                     <div className={styles.cards2}>
                         <Card>
                             <div className={styles.cardHead}>
-                                <div><h4>Snap Nav Docs</h4><Soon/></div>
-                                
+                                <h4>Linkshortenrr</h4>
                                 <div className={styles.btnGrp}>
-                                    <Link href="" target="_blank" rel="noopener noreferrer" >Read <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></Link>
+                                    <Link href="https://github.com/amissah17/linkshortener" target="_blank"><FontAwesomeIcon icon={faGithub} />GitHub</Link>
+                                    <Link href="https://linkshortenrr.netlify.app/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faArrowUpRightFromSquare} />Demo</Link>
                                 </div>
                             </div>
-                            <p>This is a sample project I'm working on for my portfolio. It's a brief documentation for react navigation.</p>
+                            <p>Linkshortener is a link shorteniing application. It returns a short link and a QR code for any valid URL; it uses the Bitly API.</p>
+
+                        </Card>
+                        <Card>
+                            <div className={styles.cardHead}>
+                                <div><h4>Shappd</h4></div>
+
+                                <div className={styles.btnGrp}>
+                                    <Link href="https://github.com/amissah17/Shappd" target="_blank"><FontAwesomeIcon icon={faGithub} />GitHub</Link>
+                                    <Link href="https://shappd.netlify.app/" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faArrowUpRightFromSquare} />Demo</Link>
+                                </div>
+                            </div>
+                            <p>Shappd is a CSS tool for making and resizing shapes. It's a neumorphosim inspired project with basic controls.</p>
                         </Card>
                         <Card>
                             <div className={styles.cardHead}>
                                 <h4>Tutorial Style Guide</h4>
                                 <div className={styles.btnGrp}>
-                                    <Link href="https://docs.google.com/document/d/1JCdwkvNu2LvigV86khXFXsMulOvr2dieiYO0zCbcvvQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer" >Read <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></Link>
+                                    <Link href="https://docs.google.com/document/d/1JCdwkvNu2LvigV86khXFXsMulOvr2dieiYO0zCbcvvQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faArrowUpRightFromSquare} />Read</Link>
                                 </div>
                             </div>
                             <p>This is my style guide for writing and editing articles.
                                 It also includes tools I use while making content for developers.
                             </p>
                         </Card>
-                        {/* <Card>
-                            <div className={styles.cardHead}>
-                                <h4>Docs Style Guide</h4>
-                                <div className={styles.btnGrp}>
-                                    <Link href="" target="_blank" rel="noopener noreferrer">Read <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></Link>
-                                </div>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium facilis esse adipisci
-                                dolor, accusantium praesentium provident cumque perferendis dolores enim dolore rem dolorum
-                                quae sapiente, earum eveniet. Porro, rerum nulla.</p>
-
-                        </Card> */}
                     </div>
                 </div>
 

@@ -75,16 +75,17 @@ color:inherit;
 .cardHead {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .btnGrp {
   display: flex;
-  gap: 20px;
+  gap: 15px;
 }
 .btnGrp a{
   color: inherit;
 }
 .btnGrp a:hover{
-  color: #346ce4;
+  color: #739af0;
 }
 
 /* tablets design css */
