@@ -1,10 +1,15 @@
 import styles from './page.module.css'
 import Card from './_components/Card'
 import Link from 'next/link'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAnglesDown, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
+// font awesome icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnglesDown, faArrowUpRightFromSquare, faDiagramNext } from '@fortawesome/free-solid-svg-icons';
+import {  faCss3Alt,  faGitAlt, faGithub, faHtml5, faJs, faNodeJs, faReact, faSass } from '@fortawesome/free-brands-svg-icons';
+
+// coreui icons
+import CIcon from './_components/Coreicons'
+import { cibGraphql, cibNextJs } from '@coreui/icons';
 
 
 export default function Home() {
@@ -68,7 +73,16 @@ export default function Home() {
                                 </div>
                             </div>
                             <p>Linkshortener is a link shorteniing application. It returns a short link and a QR code for any valid URL; it uses the Bitly API.</p>
-
+                            <hr />
+                            <div className={styles.techWrap}>
+                                 <h4>Tech Stack:</h4>
+                                <div className={styles.tstack}>
+                                <FontAwesomeIcon icon={faReact} />
+                                <FontAwesomeIcon icon={faCss3Alt} />
+                                <FontAwesomeIcon icon={faJs} />
+                                </div>
+                                
+                            </div>
                         </Card>
                         <Card>
                             <div className={styles.cardHead}>
@@ -80,6 +94,15 @@ export default function Home() {
                                 </div>
                             </div>
                             <p>Shappd is a CSS tool for making and resizing shapes. It's a neumorphosim inspired project with basic controls.</p>
+                            <hr />
+                            <div className={styles.techWrap}>
+                                 <h4>Tech Stack:</h4>
+                                <div className={styles.tstack}>
+                                <FontAwesomeIcon icon={faHtml5} />
+                                <FontAwesomeIcon icon={faCss3Alt} />
+                                <FontAwesomeIcon icon={faJs} />
+                                </div>
+                            </div>
                         </Card>
                         <Card>
                             <div className={styles.cardHead}>
@@ -94,9 +117,66 @@ export default function Home() {
                         </Card>
                     </div>
                 </div>
-
             </section>
 
+            {/* Skills and Tools */}
+            <section >
+                <div className={styles.blog}>
+                    <h2 className={styles.headings}>Tech Stack</h2>
+
+                    <div className={styles.cards3}>
+                        <div className={styles.card3}>
+                            <FontAwesomeIcon size='2x' icon={faReact} />
+                            <h5>React</h5>
+                        </div>
+
+                        <div className={styles.card3}>
+                            <FontAwesomeIcon size='2x' icon={faJs} />
+                            <h5>JavaScript</h5>
+                        </div>
+
+                        <div className={styles.card3}>
+                            <FontAwesomeIcon size='2x' icon={faSass} />
+                            <h5>Sass</h5>
+                        </div>
+
+                        <div className={styles.card3}>
+                            <FontAwesomeIcon size='2x' icon={faCss3Alt} />
+                            <h5>CSS3</h5>
+                        </div>
+
+                        <div className={styles.card3}>
+                            <FontAwesomeIcon size='2x' icon={faNodeJs} />
+                            <h5>NodeJs</h5>
+                        </div>
+
+                        <div className={styles.card3}>
+                            <FontAwesomeIcon size='2x' icon={faHtml5} />
+                            <h5>HTML5</h5>
+                        </div>
+
+                        <div className={styles.card3}>
+                            <FontAwesomeIcon size='2x' icon={faGithub} />
+                            <h5>GitHub</h5>
+                        </div>
+
+                        <div className={styles.card3}>
+                            <FontAwesomeIcon size='2x'  icon={faGitAlt} />
+                            <h5>Git</h5>
+                        </div>
+
+                        <div className={styles.card3}>
+                            <CIcon icon={cibNextJs} className={styles.coreicons}/>
+                            <h5>NextJs</h5>
+                        </div>
+
+                        <div className={styles.card3}>
+                            <CIcon icon={cibGraphql} className={styles.coreicons}/>
+                            <h5>GraphQL</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     )
 }

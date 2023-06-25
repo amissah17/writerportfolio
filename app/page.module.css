@@ -87,7 +87,40 @@ color:inherit;
 .btnGrp a:hover{
   color: #739af0;
 }
+.techWrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tstack {
+  font-size: 1.4em;
+  display: flex;
+  gap: 10px;
+}
 
+/* Tech Stack section */
+.cards3 {
+  display: flex;
+  gap: 13px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card3 {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+flex-basis: 128px;
+background-color: #242424;
+padding: 30px;
+border-radius: 8px;
+}
+.coreicons {
+  fill: var(--textcolor);
+  width: 1.9rem;
+  height: 1.9rem;
+}
 /* tablets design css */
 @media screen and (max-width:768px) {
   main.contain {
