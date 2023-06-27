@@ -14,17 +14,15 @@ Node v18
 
 To use this as a template for your porfolio follow the steps below:
 
-1. Fork the repo into your GitHub account.
-
-2. Clone the repo.
+1. Clone the repo.
 
     git clone [...url of your forked repo]
 
-3. Install packages.
+2. Install packages.
 
     npm install
 
-4. Start dev server .
+3. Start dev server .
 
     npm run dev
 
