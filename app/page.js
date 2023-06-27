@@ -20,7 +20,7 @@ export default function Home() {
                 <div className={styles.hero}>
                     <h2>Hello, I'm Otabil Amissah</h2>
                     <p>A front end developer and technical writer.</p>
-                    <Link href="https://docs.google.com/document/d/1tiZiG4dryO4kZVubo2UqpyEzv3v9zzWqu2L6-iIFW0M/edit?usp=sharing" className={styles.btnCTA}>Download my CV</Link>
+                    <Link href="https://drive.google.com/file/d/13p_bWEGWh2bPtVLb3077mCdMZKh3CRSn/view?usp=sharing" className={styles.btnCTA}>Download my CV</Link>
                 </div>
                 <div>
                     <FontAwesomeIcon icon={faAnglesDown} size='3x' bounce />
